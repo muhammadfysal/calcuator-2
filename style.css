@@ -1,0 +1,31 @@
+/****************calcuator?**************/
+
+body{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(to right,#80ED99,#BCFFB9);
+}
+.calcuator-body{
+	width: 400px;
+	background: white;
+	border-radius: 5px;
+	padding: 16px; 
+	margin: 100px auto;
+
+}
+.result{
+	width: 100%;
+	padding: 26px;
+	background: #dadada;
+	border: none;
+	font-size:26px ;
+
+}
+.result::focus{
+	outline: none;
+}
+.btn{
+	background: #dadada;
+	width: 88px;
+	height: 46px;
+}
